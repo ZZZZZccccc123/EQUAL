@@ -131,10 +131,7 @@ EQUAL framework consists of three main stages:
 ---
 
 ## **Model Evaluation**
-To evaluate the model after fine-tuning, run:
-```bash
-python training/evaluate.py --model_path checkpoints/mistral-7b --test_set datasets/gsm8k.json
-```
+
 **Expected Results**:
 - **Accuracy Improvement**: +2.5% on **GSM8K** and **MBPP** datasets.
 - **Computational Cost Reduction**: Reduced **FLOPs** by approximately **5×** compared to traditional methods.
