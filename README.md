@@ -92,7 +92,16 @@ EQUAL framework consists of three main stages:
 
 - **Run Code**:
   ```bash
-  python clustering/cluster_documents.py --input data/raw_docs.json --output data/clusters.json
+  cd clustering/cluster/
+  python step1_kmean.py
+  python step2_dist_to_centroid_gpu.py
+  python step3_calculate_cluster_distance.py
+  
+  cd clustering/contrastive_learning/
+  python step-1.py
+  bash step-2.sh
+  bash step-3.sh
+  bash step-4.sh
   ```
 
 ---
@@ -106,7 +115,8 @@ EQUAL framework consists of three main stages:
   
 - **Run Code**:
   ```bash
-  python data_synthesis/extract_qa_pairs.py --input data/clusters.json --output data/extracted_qa.json
+  cd data extraction/
+  python mab.py
   ```
 
 ---
@@ -117,11 +127,6 @@ EQUAL framework consists of three main stages:
   1. Use **Full Fine-tuning** or **LoRA (Low-Rank Adaptation)** for training.
   2. Fine-tune the model using extracted QA pairs to improve its instruction-following capabilities.
   3. Evaluate the model's performance on datasets such as **AutoMathText**, **StackOverflow**, **GSM8K**, and **MBPP**.
-
-- **Run Code**:
-  ```bash
-  python training/fine_tune.py --model mistral-7b --data data/extracted_qa.json --epochs 4
-  ```
 
 ---
 
