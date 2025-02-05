@@ -26,11 +26,6 @@ This repository contains the code for our paper **[EQUAL: Efficient Scalable Dat
 
 To set up the data extraction environment, we recommend using **Python 3.8** or later and the following dependencies. The tools used for document clustering and QA pair extraction require the following:
 
-#### **Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
 The key Python packages required for data extraction include:
 - **PyTorch** (>= 1.9.0)
 - **transformers** (for language model interaction)
