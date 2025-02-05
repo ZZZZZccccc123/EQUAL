@@ -58,13 +58,6 @@ To compute **Optimal Transport** (OT) distances, we use the **IPOT** implementat
 pip install numpy matplotlib pot==0.4.0 tensorflow==1.1.0
 ```
 
-#### **Reproducing Results**:
-To reproduce results in the paper, enter the evaluation folder and install the necessary packages:
-```bash
-cd math_eval
-pip install -r requirements.txt
-```
-
 ---
 
 ## **Project Structure**
