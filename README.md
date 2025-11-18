@@ -1,4 +1,4 @@
-# **EQUAL: Efficient Scalable Data Extraction Framework for Instruction Tuning**
+# **Not All Documents Are What You Need for Extracting Instruction Tuning Data**
 
 This repository contains the code for our paper **[Not All Documents Are What You Need for Extracting Instruction Tuning Data]**. In this work, we propose a **multi-stage framework** to efficiently extract high-quality instruction tuning data from web documents, reducing computational costs while improving model performance.
 
