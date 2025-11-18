@@ -1,6 +1,6 @@
 # **EQUAL: Efficient Scalable Data Extraction Framework for Instruction Tuning**
 
-This repository contains the code for our paper **[EQUAL: Efficient Scalable Data Extraction Framework for Instruction Tuning]** published at **ICML 2025**. In this work, we propose a **multi-stage framework** to efficiently extract high-quality instruction tuning data from web documents, reducing computational costs while improving model performance.
+This repository contains the code for our paper **[Not All Documents Are What You Need for Extracting Instruction Tuning Data]**. In this work, we propose a **multi-stage framework** to efficiently extract high-quality instruction tuning data from web documents, reducing computational costs while improving model performance.
 
 ![Method Overview](pic/pic_1.png)
 
