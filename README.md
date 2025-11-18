@@ -7,7 +7,7 @@ This repository contains the code for our paper **[Not All Documents Are What Yo
 ---
 
 ## 🔗 **Quick Links**
-- [EQUAL: Efficient Scalable Data Extraction Framework for Instruction Tuning](#equal-efficient-scalable-data-extraction-framework-for-instruction-tuning)
+- [Not All Documents Are What You Need for Extracting Instruction Tuning Data](#equal-efficient-scalable-data-extraction-framework-for-instruction-tuning)
   - [Install Requirements](#install-requirements)
   - [Project Structure](#project-structure)
   - [Data Extraction Pipeline](#data-extraction-pipeline)
